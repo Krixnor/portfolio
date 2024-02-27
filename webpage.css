@@ -267,8 +267,8 @@ h2{
     width: 7rem;
 }
 #about .button{
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
     gap: 0.5rem;
 }
 
@@ -296,7 +296,7 @@ h2{
 }
 
 #services .content{
-    padding: 100px 15px;
+    padding: 30px 15px;
     
 }
 
@@ -453,6 +453,11 @@ h3{
         padding: 15px;
         grid-template-columns: 1fr;
         
+    }
+    #about .button{
+        display: grid;
+        place-items: center;
+        gap: 0.5rem;
     }
     
 }

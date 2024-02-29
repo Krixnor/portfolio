@@ -9,7 +9,7 @@
     margin: 0px;
     /* font-family: 'Poppin' sans-serif; */
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 html{
@@ -155,11 +155,14 @@ span #web{
     padding-bottom: 3px;   
 }
 
-.hero .intro p .colorName{
+/* .hero .intro p .colorName{
    margin-top: 20px;
    display: flex;
-}
+} */
 
+#hero a i{
+    color: #000;
+}
 #about{
     /* margin-top: 10rem; */
     background-color: #f2f2f2;
